@@ -35,7 +35,8 @@
     ?> 
     <li> Número: <?= $x; ?></li>  
   <?php } ?>
-   <h4>Contagem de 5 em 5</h4>
+
+   <h4>1- Contagem de 5 em 5</h4>
 <ul>
     <?php for($x = 100; $x > -1; $x-=5) {
         echo "$x <br>";
@@ -46,7 +47,7 @@
     ?>
     
 </ul>
-<h4>Média aritmética entre 13 e 73</h4>
+<h4>2- Média aritmética entre 13 e 73</h4>
 <ul>
     <?php for($x = 13; $x < 73; $x++) {
         $soma = $soma + $x;
@@ -60,7 +61,7 @@
     ?>
     
 </ul>
-<h4>Contagem regressiva de 30 a 1 com divisíveis de 4 marcados</h4>
+<h4>3- Contagem regressiva de 30 a 1 com divisíveis de 4 marcados</h4>
 <ul>
     <?php for($x = 30; $x > 0; $x--) {
         echo "$x <br>";
